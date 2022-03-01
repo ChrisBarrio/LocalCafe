@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!----- Boxicons ----->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- Fonts -->
+    <!-- Js app -->
+    <title>Coffe Store</title>
+</head>
+<body>
+    <!-- header start -->
+    <header>
+        <!-- start logo -->
+        <figure><img src="./img/logo.png" alt="logo de la empresa"></figure>
+        <!-- end logo -->
+        <!-- start menu -->
+        <ul class="header_menu">
+            <li class="item_nav"><a href="./index.html">home</a></li>
+            <li class="item_nav"><a href="#about_us">about</a></li>
+            <li class="item_nav"><a href="#our_menu">menu</a></li>
+            <li class="item_nav"><a href="#products">products</a></li>
+            <li class="item_nav"><a href="#customers_review">review</a></li>
+            <li class="item_nav"><a href="#contact_us">contact</a></li>
+            <li class="item_nav"><a href="#ourBlogs">blogs</a></li>
+        </ul>
+        <!-- end menu -->
+        <!-- start iconos search and cart -->
+        <div class="header_iconos">
+            <div class="bx bx-search-alt-2 bx-md" id="btn_search">
+            </div>
+            
+            <div class='bx bx-cart bx-md btn_carrito'>    
+            </div>
+            
+            <div class="btn_menu bx bx-menu bx-md">
+            </div>
+        </div> 
+        <!-- end iconos search and cart -->
+    </header>
+    <!-- items ocultos -->
+    <div class="search-form">
+        <input type="search" class="search-box" placeholder="Search here...">
+    </div>
+    <div class="carrito_compras">
+        <div class="carrito_compras_item">
+            <img src="./img/cart-item-1.png" alt="granos de cafe">
+            <div>
+                <h3>Product 1</h3>
+                <p>$15.99/(1)</p>
+            </div>
+            <div><i class='bx bx-x bx-md'></i></div>
+        </div>
+        <div class="carrito_compras_item">
+            <img src="./img/cart-item-2.png" alt="granos de cafe">
+            <div>
+                <h3>Product 1</h3>
+                <p>$15.99/(1)</p>
+            </div>
+            <div><i class='bx bx-x bx-md'></i></div>
+        </div>
+        <div class="carrito_compras_item">
+            <img src="./img/cart-item-3.png" alt="granos de cafe">
+            <div>
+                <h3>Product 1</h3>
+                <p>$15.99/(4)</p>
+            </div>
+            <div><i class='bx bx-x bx-md'></i></div>
+        </div>
+        <div class="carrito_compras_item">
+            <img src="./img/cart-item-4.png" alt="granos de cafe">
+            <div>
+                <h3>Product 1</h3>
+                <p>$15.99/(2)</p>
+            </div>
+            <div><i class='bx bx-x bx-md'></i></div>
+        </div>
+        <a href="#">Checkout Now </a>
+    </div>        
+    <!-- header end -->
+    
+    <!-- start hero section  -->
+    <section class="hero">
+        <div>
+            <h1>Fresh coffe in the morning</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia unde nulla, id amet sequi ratione officiis dolor eum explicabo sit laboriosam autem voluptatum quaerat aut dolores sunt, dolore eaque totam.</p>
+            <a href="#">Get yours now</a>
+        </div>
+    </section>
+    <!-- start hero section  -->
+
+    <!-- start about us section  -->
+    <section class="about_us" id="about_us">
+        <h2><span>about</span> us</h2>
+        <div class="about_us__contenido">
+            <figure>
+                <!-- <img src="./img/about-img.jpeg" alt="imagen de cafe negro"> -->
+                <!-- <video src="./img/A coffee machine.mp4" autoplay loop></video> -->
+                <video src="https://storage.coverr.co/videos/EkhEUgAy7PAaBL6L3A2F8VGi6JpFunv8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjQ1OTMxNzc0fQ.N3lF8gxha_DXcqVaOl4rgzEsK8GAqIG6RSZz48ppfrw" autoplay loop></video>
+            </figure>    
+
+            <div>
+                <h3>what makes our coffee special?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic eaque laudantium sunt repellendus accusamus beatae ex quisquam eveniet! Accusamus nisi perferendis, autem vero ut volupta perspiciatis amet!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam beatae, voluptatibus recusandae consequuntur minima maxime, porro iusto et mollitia in nostrum dolores possimus dols</p>
+                <br>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </section>
+    <!-- end about us section  -->
+
+    <!-- start our menu section  -->
+    <section class="our_menu" id="our_menu">
+        <h2>our<span> menu</span></h2>
+        <div class="our_menu_grid">
+            <div class="our_menu__tapCoffe">
+                <img src="./img/menu-1.png" alt="taza de cafe">
+                <h4>Tasty and Healty</h4>
+                <p class="our_menu__price">$15.99<span>20.99</span></p>
+                <a href="#">Add To Cart</a>
+            </div>
+            <div class="our_menu__tapCoffe">
+                <img src="./img/menu-2.png" alt="taza de cafe">
+                <h4>Tasty and Healty</h4>
+                <p class="our_menu__price">$15.99<span>20.99</span></p>
+                <a href="#">Add To Cart</a>
+            </div>
+            <div class="our_menu__tapCoffe">
+                <img src="./img/menu-3.png" alt="taza de cafe">
+                <h4>Tasty and Healty</h4>
+                <p class="our_menu__price">$15.99<span>20.99</span></p>
+                <a href="#">Add To Cart</a>
+            </div>
+            <div class="our_menu__tapCoffe">
+                <img src="./img/menu-4.png" alt="taza de cafe">
+                <h4>Tasty and Healty</h4>
+                <p class="our_menu__price">$15.99<span>20.99</span></p>
+                <a href="#">Add To Cart</a>
+            </div>
+            <div class="our_menu__tapCoffe">
+                <img src="./img/menu-5.png" alt="taza de cafe">
+                <h4>Tasty and Healty</h4>
+                <p class="our_menu__price">$15.99<span>20.99</span></p>
+                <a href="#">Add To Cart</a>
+            </div>
+            <div class="our_menu__tapCoffe">
+                <img src="./img/menu-6.png" alt="taza de cafe">
+                <h4>Tasty and Healty</h4>
+                <p class="our_menu__price">$15.99<span>20.99</span></p>
+                <a href="#">Add To Cart</a>
+            </div>
+            <div class="our_menu__tapCoffe">
+                <img src="./img/menu-3.png" alt="taza de cafe">
+                <h4>Tasty and Healty</h4>
+                <p class="our_menu__price">$15.99<span>20.99</span></p>
+                <a href="#">Add To Cart</a>
+            </div>
+            <div class="our_menu__tapCoffe">
+                <img src="./img/menu-4.png" alt="taza de cafe">
+                <h4>Tasty and Healty</h4>
+                <p class="our_menu__price">$15.99<span>20.99</span></p>
+                <a href="#">Add To Cart</a>
+            </div>
+        </div>
+    </section>
+    <!-- end our menu section  -->
+
+    <!-- start our products section -->
+    <section class="our_products" id="products">
+        <h2>Our<span> products</span></h2>
+        <div class="our_products_container">
+            <div class="our_products_item">
+
+                <div class="our_products_item_icon">
+                    <a href="#" class="bx bx-cart bx-md"></a>
+                    <a href="#" class="bx bx-heart bx-md"></a>
+                    <a href="#" class="bx bx-message-dots bx-md"></a>
+                </div>
+
+                <div class="our_products_item_contain">
+                    <img src="./img/product-1.png" alt="bolsa de cafe">
+                    <h4>Fresh Coffe</h4>
+                    <div><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star-half' ></i></div>
+                    <p class="our_products_item_price">$15.99<span>20.99</span></p>
+                </div>
+            </div>
+
+            <div class="our_products_item">
+
+                <div class="our_products_item_icon">
+                    <a href="#" class="bx bx-cart bx-md"></a>
+                    <a href="#" class="bx bx-heart bx-md"></a>
+                    <a href="#" class="bx bx-message-dots bx-md"></a>
+                </div>
+
+                <div class="our_products_item_contain">
+                    <img src="./img/product-2.png" alt="bolsa de cafe">
+                    <h4>Fresh Coffe</h4>
+                    <div><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star-half' ></i></div>
+                    <p class="our_products_item_price">$15.99<span>20.99</span></p>
+                </div>
+            </div>
+
+            <div class="our_products_item">
+
+                <div class="our_products_item_icon">
+                    <a href="#" class="bx bx-cart bx-md"></a>
+                    <a href="#" class="bx bx-heart bx-md"></a>
+                    <a href="#" class="bx bx-message-dots bx-md"></a>
+                </div>
+
+                <div class="our_products_item_contain">
+                    <img src="./img/product-3.png" alt="bolsa de cafe">
+                    <h4>Fresh Coffe</h4>
+                    <div><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star-half' ></i></div>
+                    <p class="our_products_item_price">$15.99<span>20.99</span></p>
+                </div>
+            </div>
+
+            <div class="our_products_item">
+
+                <div class="our_products_item_icon">
+                    <a href="#" class="bx bx-cart bx-md"></a>
+                    <a href="#" class="bx bx-heart bx-md"></a>
+                    <a href="#" class="bx bx-message-dots bx-md"></a>
+                </div>
+
+                <div class="our_products_item_contain">
+                    <img src="./img/product-4.png" alt="bolsa de cafe">
+                    <h4>Fresh Coffe</h4>
+                    <div><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star-half' ></i></div>
+                    <p class="our_products_item_price">$15.99<span>20.99</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end our products section -->
+
+    <!-- start customer's review -->
+    <section class="customers_review" id="customers_review">
+        <h2>Customer's<span> review</span></h2>
+        <div class="customers_review_container">
+            <div class="customers_review_item">
+                <img src="./img/quote-img.png" alt="quote image">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia quia nobis asperiores sed tempore aliquam eius deserunt vel dolore nulla.</p>
+                <img class='customers_review_item_img' src="./img/pic-1.png" alt="imagen de follower">
+                <h4>@Jhon Michael</h4>
+                <div>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                    <i class='bx bx-star'></i>
+                </div>
+                
+
+            </div>
+
+            <div class="customers_review_item">
+                <img src="./img/quote-img.png" alt="quote image">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia quia nobis asperiores sed tempore aliquam eius deserunt vel dolore nulla.</p>
+                <img class='customers_review_item_img' src="./img/pic-2.png" alt="imagen de follower">
+                <h4>@Jhon Michael</h4>
+                <div>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                
+
+            </div>
+
+            <div class="customers_review_item">
+                <img src="./img/quote-img.png" alt="quote image">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia quia nobis asperiores sed tempore aliquam eius deserunt vel dolore nulla.</p>
+                <img class='customers_review_item_img' src="./img/pic-3.png" alt="imagen de follower">
+                <h4>@Jhon Michael</h4>
+                <div>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                
+
+            </div>
+
+            <div class="customers_review_item">
+                <img src="./img/quote-img.png" alt="quote image">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia quia nobis asperiores sed tempore aliquam eius deserunt vel dolore nulla.</p>
+                <img class='customers_review_item_img' src="./img/pic-4.png" alt="imagen de follower">
+                <h4>@Jhon Michael</h4>
+                <div>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+    <!-- end customer's review -->
+
+    <!-- start contact us -->
+    <section class="contact_us" id="contact_us">
+        <h2>Contact <span> Us</span></h2>
+        <div class="contact_us_container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254508.51641081428!2d-74.24789461446046!3d4.648283717182743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bfd2da6cb29%3A0x239d635520a33914!2sBogot%C3%A1%2C%20Colombia!5e0!3m2!1ses-419!2sar!4v1645909285001!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <form action="">
+                <h3>get in touch</h3>
+                <div>
+                    <span class='bx bxs-user bx-md'></span>
+                    <input type="text" placeholder="name">
+                </div>
+                <div>
+                    <span class='bx bx-mail-send bx-md'></span>
+                    <input type="email" placeholder="email">
+                </div>
+                <div>
+                    <span class='bx bx-phone-call bx-md'></span>
+                    <input type="text" placeholder="number">
+                </div>
+                <div>
+                    <input type="submit" value="CONTACT NOW" class="contactUS_btn">
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- start contact us -->
+
+     <!-- start our blogs -->
+    <section class="ourBlogs" id="ourBlogs">
+        <h2>Our<span> blogs</span></h2>
+        <div class="courBlogs_container">
+            <div class="ourBlogs_item">
+                <img src="./img/blog-1.jpeg" alt="foto de cafe">
+                <h4>Jhon Michael</h4>
+                <p class="ourBlogs_item_userblog">By Admin / 21st May,2021</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, architecto aliquid delectus ea ipsa a?</p>
+                <div><a href="#">Read More</a></div>
+            </div>
+
+            <div class="ourBlogs_item">
+                <img src="./img/blog-2.jpeg" alt="foto de cafe">
+                <h4>Jhon Michael</h4>
+                <p class="ourBlogs_item_userblog">By Admin / 21st May,2021</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, architecto aliquid delectus ea ipsa a?</p>
+                <div><a href="#">Read More</a></div>
+            </div>
+
+            <div class="ourBlogs_item">
+                <img src="./img/blog-3.jpeg" alt="foto de cafe">
+                <h4>Jhon Michael</h4>
+                <p class="ourBlogs_item_userblog">By Admin / 21st May,2021</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, architecto aliquid delectus ea ipsa a?</p>
+                <div><a href="#">Read More</a></div>
+            </div>
+
+            <div class="ourBlogs_item">
+                <img src="./img/blog-4.jpg" alt="foto de cafe">
+                <h4>Jhon Michael</h4>
+                <p class="ourBlogs_item_userblog">By Admin / 21st May,2021</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, architecto aliquid delectus ea ipsa a?</p>
+                <div><a href="#">Read More</a></div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- end our blogs -->
+
+    
+    <!-- start footer -->
+    <footer>
+        <div class="redes">
+            <a href="#"><i class='bx bxl-facebook-circle bx-md'></i></a>
+            <a href="#"><i class='bx bxl-twitter bx-md'></i></a>
+            <a href="#"><i class='bx bxl-instagram bx-md'></i></a>
+            <a href="#"><i class='bx bxl-linkedin-square bx-md'></i></a>
+            <a href="#"><i class='bx bxl-pinterest bx-md'></i></a>
+        </div>
+
+        <div class="createdBy">
+            <p>Created By <a href="#">ChrisBarrio</a> | All Rights Reserved</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <script src="./js/app.js"></script>
+</body>
+</html>
