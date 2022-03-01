@@ -22,7 +22,7 @@
 
 html {
     font-size:62.5%;
-    overflow-x:hidden;
+    // overflow-x:hidden;
 }
 a{
     color: var(--white);
@@ -110,7 +110,7 @@ header{
 }
 
 .carrito_compras{
-        display: flex;
+        display: none;
         flex-direction: column;
         top: 6%; right: -100%;
         height: calc(100vh - 9.5rem);
@@ -162,6 +162,7 @@ header{
 }
 
 .carrito_compras.active{
+    display: flex;
     right: 0;
 }
 
@@ -639,7 +640,7 @@ footer{
 @media (max-width:811px){
     html {
         font-size:50%;
-        overflow-x:hidden;
+        // overflow-x:hidden;
     }
     .header_menu{
         display: flex;
@@ -672,6 +673,7 @@ footer{
         right: 0;
     }
     .carrito_compras.active{
+        display: flex;
         right: 0;
     }
     .hero{
@@ -796,7 +798,7 @@ footer{
 @media (max-width:376px){
     html {
         font-size:40%;
-        overflow-x:hidden;
+        // overflow-x:hidden;
     }
     .header_menu.active{
         width: 100%;
