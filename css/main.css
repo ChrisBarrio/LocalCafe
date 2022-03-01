@@ -765,6 +765,9 @@ footer .createdBy a {
   .header_menu.active {
     right: 0;
   }
+  .carrito_compras {
+    display: none;
+  }
   .carrito_compras.active {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -890,7 +893,13 @@ footer .createdBy a {
   .search-form.active .search-box {
     width: 80%;
   }
+  .carrito_compras {
+    display: none;
+  }
   .carrito_compras.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     right: 0;
   }
   .hero div {

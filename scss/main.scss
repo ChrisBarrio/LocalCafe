@@ -672,6 +672,9 @@ footer{
     .header_menu.active{
         right: 0;
     }
+    .carrito_compras{
+        display: none;
+    }
     .carrito_compras.active{
         display: flex;
         right: 0;
@@ -809,7 +812,11 @@ footer{
             width: 80%;
         }
     }
+    .carrito_compras{
+        display: none;
+    }
     .carrito_compras.active{
+        display: flex;
         right: 0;
     }
     .hero{
